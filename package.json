@@ -1,0 +1,23 @@
+{
+  "name": "google-css-combined-ex",
+  "version": "1.0.0",
+  "description": "Google.com clone implemented using Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yvad60/google-css-combined-ex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yvad60/google-css-combined-ex/issues"
+  },
+  "homepage": "https://github.com/Yvad60/google-css-combined-ex#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
