@@ -8,8 +8,70 @@
   <title>Google</title>
 </head>
 
-<body>
+<body class="font-Roboto text-secondary_dark flex flex-col h-screen">
+  <header class="flex justify-between items-center px-4">
+    <nav class="flex gap-4 items-center">
+      <svg class="w-6 fill-secondary_dark" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+      </svg>
+      <a href="#" class="text-xs font-[600] py-4 px-2 text-primary_blue border-b-2 border-primary_blue">ALL</a>
+      <a href="#" class="text-xs font-[600] py-4">IMAGES</a>
+    </nav>
 
+    <nav class="flex gap-4">
+      <svg class="w-6 fill-secondary_dark" viewBox="0 0 24 24">
+        <path
+          d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
+        </path>
+      </svg>
+      <button type="button" class="px-5 py-2 bg-primary_blue text-white bg-primary_dark_blue rounded-md text-sm">Sign
+        in</button>
+    </nav>
+  </header>
+
+  <main class="flex flex-col mt-16 items-center px-2">
+    <div class="w-full flex flex-col gap-6 items-center">
+      <img class="w-40" src="./assets/images/google_logo.png" alt="Google logo">
+      <form class="w-full flex gap-2 border border-secondary_gray max-w-xl rounded-3xl px-2 py-2">
+        <svg class="w-6 h-6 fill-dark_gray" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path
+            d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+          </path>
+        </svg>
+        <input name="search" title="search" class="outline-none" type="text">
+      </form>
+      <div class="hidden">
+        <button type="button">Google Search</button>
+        <button type="button">I'm Feeling Lucky</button>
+      </div>
+      <div class="flex text-xsm self-center justify-center gap-4 flex-wrap">
+        <p class="">Google offered in:</p>
+        <a href="#" class="text-primary_dark_blue">Francais</a>
+        <a href="#" class="text-primary_dark_blue">Kiswahili</a>
+        <a href="#" class="text-primary_dark_blue">Ikinyarwanda</a>
+      </div>
+    </div>
+
+
+  </main>
+  <footer class="mt-auto bg-primary_gray text-secondary_dark">
+    <p class="px-4 py-2">Rwanda</p>
+    <div class="border-y-2 py-5"></div>
+    <div class="px-4 flex flex-col gap-4 text-xsm py-4">
+      <div class="flex space-x-4 justify-center flex-wrap">
+        <a href="#">Dark theme: off</a>
+        <a href="#">Settings</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </div>
+      <div class="flex space-x-4 justify-center flex-wrap">
+        <a href="#">Advertising</a>
+        <a href="#">Business</a>
+        <a href="#">About</a>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
